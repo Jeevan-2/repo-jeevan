@@ -1,0 +1,1000 @@
+    5  sh add_num2.sh 6 4
+    6  sh add_num2.sh 8 9
+    7  sh add_num.sh 8 
+    8  sh add_num2.sh 8 
+    9  vi add_num2.sh
+   10  sh add_num2.sh 8 9
+   11  sh add_num2.sh 8 
+   12  vi add_num3.sh
+   13  chmod 764 add_num3.sh
+   14  sh add_num3.sh 5 8
+   15  sh add_num3.sh 6 3
+   16  vi string_add.sh
+   17  chmod 764 string_add.sh
+   18  sh string_add.sh linux shellscripting
+   19  sh string_add.sh shell scripting
+   20  vi string_add.sh
+   21  vi print_char.sh
+   22  chmod 764 print_char.sh
+   23  sh print_char.sh 
+   24  sh print_char.sh 6 3
+   25  vi print_char.sh
+   26  sh print_char.sh 6 3
+   27  sh print_char.sh 5 6
+   28  vi print_char2.sh
+   29  chmod 764 print_char2.sh
+   30  sh print_char2.sh
+   31  vi print_char2.sh
+   32  sh print_char2.sh
+   33  vi read_print.sh
+   34  chmod 764 read_print.sh
+   35  sh read_print.sh
+   36  vi read_print.sh
+   37  vi read_print2.sh
+   38  sh read_print2.sh
+   39  vi leap_year.sh
+   40  sh leap_year.sh
+   41  vi leap_year.sh
+   42  sh leap_year.sh
+   43  vi leap_year.sh
+   44  vi leap_year2.sh
+   45  sh leap_year2.sh
+   46  vi leap_year2.sh
+   47  sh leap_year2.sh
+   48  vi leap_year2.sh
+   49  sh leap_year2.sh
+   50  vi leap_year2.sh
+   51  sh leap_year2.sh
+   52  vi leap_year2.sh
+   53  sh leap_year2.sh
+   54  chmod 764 leap_year2.sh
+   55  sh leap_year2.sh
+   56  vi leap_year2.sh
+   57  sleep 180 &
+   58  echo #?
+   59  echo #!
+   60  echo ##
+   61  $?
+   62  $!
+   63  vi leap_year2.sh
+   64  sh leap_year2.sh
+   65  vi check_fs.sh
+   66  sh check_fs.sh
+   67  ls -lrt
+   68  pwd
+   69  cd
+   70  ls -lrt
+   71  vi check_fs.sh
+   72  cd shell_scripts
+   73  sh check_fs.sh
+   74  cd
+   75  cd dir3
+   76  ls -lrt
+   77  cd 
+   78  cd dir1
+   79  ls -lrt
+   80  cd t1
+   81  ls -lrt
+   82  sh check_fs.sh
+   83  cd
+   84  cd shell_scripts
+   85  sh check_fs.sh
+   86  ls -lrt
+   87  vi add_3num.sh
+   88  sh add_3num.sh
+   89  vi add_3num.sh
+   90  sh add_3num.sh
+   91  vi add_3num.sh
+   92  sh add_3num.sh
+   93  history
+   94  pwd
+   95  touch file{1..10}
+   96  ls -lrt
+   97  vi file1
+   98  cat file1
+   99  sed -i '/Linux/d' file1
+  100  cat file1
+  101  sed -i '2d' file1
+  102  cat file1
+  103  ls -lrt
+  104  ls -lrt | awk -F " " 'print$(NF)'
+  105  ls -lrt | awk -F " " 'print $(NF)'
+  106  ls -lrt | awk -F " " 'PRINT $(NF)'
+  107  ls -lrt| tail -n+2 | awk -F " " 'print $(NF)'
+  108  ls -lrt | tail -n+2 | awk -F " " 'print$(NF)'
+  109  ls -lrt| tail -n+2 | awk -F " " 'print $(NF)'
+  110  ls -lrt | awk -F " " '{PRINT $(NF)}'
+  111  ls -lrt | awk -F " " '{print $(NF)}'
+  112  cat file1
+  113  vi file1
+  114  touch abc call abll dont
+  115  ls -lrt
+  116  ls -lrt | grep -e "a" -e "b" 
+  117  ls -d ? [ab]*
+  118  pwd
+  119  cd shell_scripts
+  120  ls -lrt
+  121  touch biggestof2_AB.sh
+  122  vi biggestof2_AB.sh
+  123  sh biggestof2_AB.sh
+  124  vi biggestof2_AB.sh
+  125  sh biggestof2_AB.sh
+  126  cd shell_scripts
+  127  ls -lrt
+  128  touch biggestof2.sh
+  129  cat biggestof2.sh
+  130  vi biggestof2.sh
+  131  touch biggestof2_A.sh
+  132  vi biggestof2_A.sh
+  133  sh biggestof2_A.sh
+  134  vi biggestof2_A.sh
+  135  sh biggestof2_A.sh
+  136  sleep 300&
+  137  pwd
+  138  cd shell_scripts
+  139  ls -lrt
+  140  vi biggestof2_AB.sh
+  141  sh biggestof2_AB.sh
+  142  vi biggestof2_AB.sh
+  143  sh biggestof2_AB.sh
+  144  vi biggestof2_AB.sh [B
+  145  sh biggestof2_AB.sh
+  146  cd shell_script
+  147  cd shell_scripts
+  148  ls -lrt
+  149  vi biggestof2_AB.sh
+  150  sh biggestof2_AB.sh
+  151  vi biggestof2_AB.sh
+  152  sh biggestof2_AB.sh
+  153  vi biggestof2_AB.sh
+  154  sh biggestof2_AB.sh
+  155  vi biggestof2_AB.sh
+  156  sh biggestof2_AB.sh
+  157  vi biggestof2_AB.sh
+  158  sh biggestof2_AB.sh
+  159  vi biggestof2_AB.sh
+  160  sh biggestof2_AB.sh
+  161  sh biggestof2_AB.sh 3 5
+  162  vi biggestof2_AB.sh
+  163  sh biggestof2_AB.sh 3 5
+  164  vi biggestof2_AB.sh
+  165  sh biggestof2_AB.sh 3 5
+  166  sh biggestof2_AB.sh
+  167  vi biggestof2_AB.sh
+  168  sh biggestof2_AB.sh 6 3
+  169  sh biggestof2_AB.sh 6 
+  170  sh biggestof2_AB.sh 6 3 3 3
+  171  sh biggestof2_AB.sh 6 3 2
+  172  pwd 
+  173  ls -lrt
+  174  cd shell_scripts
+  175  ls -lrt
+  176  pwd
+  177  find /home/ec2-user/shell_scripts
+  178  find /home/ec2-user/shell_scripts -type f -empty
+  179  crontab
+  180  crontab -l
+  181  crontab -e
+  182  cat /home/ec2-user/shell_scripts/basic_scripts.sh
+  183  vi /home/ec2-user/shell_scripts/basic_scripts.sh
+  184  crontab -e
+  185  crontab -l
+  186  cat /home/ec2-user/shell_scripts/basic_scripts2.sh
+  187  sudo crontab -e
+  188  vi /home/ec2-user/shell_scripts/basic_scripts2.sh
+  189  sudo crontab -e
+  190  sudo crontab -l
+  191  ps -ef
+  192  sudo crontab -e
+  193  ps -ef
+  194  vi /home/ec2-user/shell_scripts/basic_scripts.sh
+  195  crontab -e
+  196  sudo crontab -e
+  197  ps -ef
+  198  ps -ef | egrep "sleep|300" 
+  199  ps -ef | egrep "sleep|300" | grep -v grep
+  200  ps -ef | egrep "sleep|300" | grep -v grep | awk -F " " '{print $2}'
+  201  sudo crontab -e
+  202  ps -ef
+  203  ps -ef | egrep "sleep|300" | grep -v grep | awk -F " " '{print $2}'
+  204  ps -ef | egrep "sleep|300" | grep -v grep | awk -F " " '{print $2}' | kill -9
+  205  ps -ef | egrep "sleep|300" | grep -v grep | awk -F " " '{print $2}' | xargs kill -9
+  206  sudo crontab -l
+  207  crontab -l
+  208  ps -ef
+  209  sudo crontab -e
+  210  crontab -e
+  211  sudo crontab -e
+  212  sudo crontab -l
+  213  crontab -l
+  214  ps -ef
+  215  ps -ef | egrep "sleep|300" | grep -v grep | awk -F " " '{print $2}' | xargs kill -9
+  216  ps -ef
+  217  vi /home/ec2-user/shell_scripts/basic_scripts2.sh
+  218  crontab -e
+  219  crontab -l
+  220  sudo crontab -l
+  221  df -h .
+  222  df -h . | awk -F " " '{print $(NF-1)}'
+  223  df -h . | awk -F " " '{print $(NF-1)}' | sed 's/%/ /g'
+  224  df -h . | awk -F " " '{print $(NF-1)}' | sed 's/%/ /g' | tail -1
+  225  vi disk_space.sh
+  226  sh disk_space.sh
+  227  vi disk_space.sh
+  228  ps -ef
+  229  vi disk_space.sh
+  230  vi sam_cron.sh
+  231  crontab -e
+  232  ps -ef
+  233  ps -ef | egrep "sleep|300" | grep -v grep | awk -F " " '{print $2}' | xargs kill -9
+  234  ps -ef
+  235  pwd
+  236  cd shell_scripts
+  237  ls -lrt
+  238  mv /home/ec2-user/shell_scripts/sam_cron /home/ec2-user/shell_scripts/sample_cron
+  239  mv /home/ec2-user/shell_scripts/sam_cron.sh /home/ec2-user/shell_scripts/sample_cron.sh
+  240  ls -lrt
+  241  vi Addsubmuldiv.sh
+  242  mv /home/ec2-user/shell_scripts/Addsubmuldiv.sh /home/ec2-user/shell_scripts/Add_sub_mul_div.sh
+  243  ls -lrt
+  244  vi Add_sub_mul_div.sh
+  245  sh Add_sub_mul_div.sh
+  246  vi Add_sub_mul_div.sh
+  247  sh Add_sub_mul_div.sh
+  248  vi Add_sub_mul_div.sh
+  249  sh Add_sub_mul_div.sh
+  250  vi Add_sub_mul_div.sh
+  251  sh Add_sub_mul_div.sh
+  252  vi Add_sub_mul_div.sh
+  253  sh Add_sub_mul_div.sh
+  254  vi Add_sub_mul_div.sh
+  255  sh Add_sub_mul_div.sh
+  256  vi Add_sub_mul_div.sh
+  257  sh Add_sub_mul_div.sh
+  258  pwd
+  259  cd shell_scripts
+  260  ls -lrt
+  261  vi check_fs2.sh
+  262  sh check_fs2.sh
+  263  vi check_fs2.sh
+  264  sh check_fs2.sh
+  265  vi check_fs2.sh
+  266  vi pattern.sh
+  267  cat sample.sh
+  268  sh pattern.sh
+  269  vi pattern.sh
+  270  sh pattern.sh
+  271  vi pattern.sh
+  272  sh pattern.sh
+  273  vi pattern.sh
+  274  sh pattern.sh
+  275  vi pattern.sh
+  276  sh pattern.sh
+  277  vi pattern.sh
+  278  sh pattern.sh
+  279  vi pattern.sh
+  280  sh pattern.sh
+  281  cat sample2.sh
+  282  cat leap_year2.sh
+  283  cat biggestof2_A.sh
+  284  cat Add_sub_mul_div.sh
+  285  cat add_3num.sh
+  286  sh pattern.sh
+  287  vi pattern.sh
+  288  sh pattern.sh
+  289  vi pattern.sh
+  290  pwd
+  291  cd shell_scripts
+  292  ls -lrt
+  293  vi check_fs2.sh
+  294  sh check_fs2.sh
+  295  cd
+  296  cd dir3
+  297  ls -lrt
+  298  cd 
+  299  cd dir2
+  300  cd 
+  301  ls -lrt
+  302  cd dir5 
+  303  ls -lrt
+  304  cd dir3
+  305  pwd
+  306  ls -lrt
+  307  pwd
+  308  mkdir dirA dirB dirC
+  309  touch f1 f2 f3
+  310  ls -lrt
+  311  cd
+  312  cd shell_scripts
+  313  ls -lrt
+  314  vi check_fs2.sh
+  315  sh check_fs2.sh
+  316  vi check_fs2.sh
+  317  sh check_fs2.sh
+  318  vi check_fs2.sh
+  319  sh check_fs2.sh
+  320  vi check_fs2.sh
+  321  sh check_fs2.sh
+  322  vi check_fs2.sh
+  323  cd shell_scripts
+  324  ls -lrt
+  325  vi Add_sub_mul_div.sh
+  326  sh Add_sub_mul_div.sh
+  327  vi Add_sub_mul_div.sh
+  328  sh Add_sub_mul_div.sh
+  329  vi Add_sub_mul_div.sh
+  330  sh Add_sub_mul_div.sh
+  331  vi Add_sub_mul_div.sh
+  332  cat add_num3.sh
+  333  cat add_num3.sh 3 6
+  334  vi Add_sub_mul_div.sh
+  335  sh Add_sub_mul_div.sh
+  336  vi Add_sub_mul_div.sh
+  337  sh Add_sub_mul_div.sh
+  338  cat check_fs
+  339  cat check_fs.sh
+  340  clear
+  341  vi check_fs2.sh
+  342  sh check_fs2.sh
+  343  vi check_fs2.sh
+  344  sh check_fs2.sh
+  345  ls -lrt
+  346  sh check_fs2.sh
+  347  vi check_fs2.sh
+  348  sh check_fs2.sh
+  349  cat sample.sh
+  350  sh check_fs2.sh
+  351  cd ..
+  352  ls -lrt
+  353  pwd
+  354  sh check_fs2.sh
+  355  cd shell_scripts
+  356  sh check_fs2.sh
+  357  vi check_fs2.sh
+  358  sh check_fs2.sh
+  359  vi check_fs2.sh
+  360  sh check_fs2.sh
+  361  vi check_fs2.sh
+  362  sh check_fs2.sh
+  363  vi check_fs2.sh
+  364  sh check_fs2.sh
+  365  cd ..
+  366  pwd
+  367  ls -lrt
+  368  cd dir1
+  369  ls -lrt
+  370  cd
+  371  cd shell_scripts
+  372  ls -lrt
+  373  vi pattern.sh
+  374  vi pattern2.sh
+  375  sh pattern2.sh
+  376  sh pattern.sh
+  377  rm pattern2.sh
+  378  vi pattern.sh
+  379  cd shell_scripts
+  380  crontab -e
+  381  sudo crontab -e
+  382  pwd
+  383  cd shell_scripts
+  384  ls -lrt
+  385  vi fibonacci.sh
+  386  sh fibonacci.sh
+  387  vi emp_deatils.sh
+  388  vi emp_details_fetch_age.sh
+  389  sh emp_details_fetch_age.sh emp_deatils.sh
+  390  vi emp_details_fetch_age.sh
+  391  sh emp_details_fetch_age.sh emp_deatils.sh
+  392  cd shell_scripts
+  393  ls -lrt
+  394  vi fact_Num2.
+  395  sh fact_Num2.
+  396  sh emp_details_fetch_age.sh emp_deatils.sh
+  397  vi emp_details_fetch_age.sh
+  398  sh emp_details_fetch_age.sh emp_deatils.sh
+  399  vi emp_details_fetch_age.sh
+  400  sh emp_details_fetch_age.sh emp_deatils.sh
+  401  vi emp_details_fetch_age.sh
+  402  sh emp_details_fetch_age.sh emp_deatils.sh
+  403  vi basic_while.sh
+  404  sh basic_while.sh 5
+  405  vi basic_while.sh
+  406  sh basic_while.sh 5
+  407  vi basic_while.sh
+  408  sh basic_while.sh 5
+  409  vi basic_while.sh
+  410  sh basic_while.sh 6
+  411  vi basic_while.sh
+  412  sh basic_while.sh 6
+  413  sh basic_while.sh 5
+  414  vi basic_while.sh
+  415  sh basic_while.sh 5
+  416  vi basic_while.sh
+  417  sh basic_while.sh 5
+  418  clear
+  419  vi factorial.sh
+  420  sh factorial.sh
+  421  vi factorial.sh
+  422  sh factorial.sh
+  423  vi factorial.sh
+  424  sh factorial.sh
+  425  vi factorial.sh
+  426  sh factorial.sh
+  427  vi read_file.sh
+  428  sh read_file.sh sample.sh
+  429  cat sample.sh
+  430  vi sample.sh
+  431  sh -x read_file.sh sample.sh
+  432  ls -lrt
+  433  cd ..
+  434  ls -lrt
+  435  cat file
+  436  pwd
+  437  cd shell scripts
+  438  cd shell_scripts
+  439  vi count_words_char.sh
+  440  sh count_words_char.sh /home/ec2-user
+  441  sh count_words_char.sh
+  442  vi count_words_char.sh
+  443  sh count_words_char.sh
+  444  vi count_words_char.sh
+  445  sh count_words_char.sh /home/ec2-user/file
+  446  vi count_words_char.sh
+  447  sh count_words_char.sh /home/ec2-user/file
+  448  vi count_words_char.sh
+  449  sh count_words_char.sh /home/ec2-user/file
+  450  vi count_words_char.sh
+  451  sh count_words_char.sh /home/ec2-user/file
+  452  vi basic_for.sh
+  453  sh basic_for.sh
+  454  vi add_list_num.sh
+  455  sh add_list_num.sh 1 2 3 4 5 6 7 8 9 10
+  456  sh add_list_num.sh 2 6 5 3 7 6
+  457  ls -lrt
+  458  vi pattern.sh
+  459  rm pattern.sh
+  460  pwd
+  461  cd shell_scripts
+  462  ls -lrt
+  463  vi pattern.sh
+  464  cd shell_scripts
+  465  ls -lrt
+  466  vi emp_deatils.sh
+  467  vi emp_details_fetch_age.sh
+  468  sh emp_details_fetch_age.sh emp_details.sh
+  469  rm fact_Num2.
+  470  ls -lrt
+  471  vi list_fact.sh
+  472  sh list_fact.sh 2 4 5 3 7 9 1
+  473  vi list_fact.sh
+  474  sh list_fact.sh 2 4 5 3 7 9 1
+  475  vi list_fact.sh
+  476  sh list_fact.sh 2 4 5 3 7 9 1
+  477  sh list_fact.sh 4
+  478  vi list_fact.sh
+  479  sh list_fact.sh 4
+  480  sh list_fact.sh 2 4 5 3 7 9 1
+  481  vi list_fact.sh
+  482  sh list_fact.sh 2 4 5 3 7 9 1
+  483  vi list_fact.sh
+  484  vi emp_details_fetch_age.sh
+  485  ls -lrt
+  486  cat pattern.sh
+  487  vi pattern.sh
+  488  cd shell_scripts
+  489  ls -lrt
+  490  vi emp_details_fetch_age.sh
+  491  sh emp_details_fetch_age.sh emp_details.sh
+  492  vi emp_details_fetch_age.sh
+  493  sh emp_details_fetch_age.sh emp_details.sh
+  494  vi emp_details_fetch_age.sh
+  495  sh emp_details_fetch_age.sh emp_details.sh
+  496  vi emp_details_fetch_age.sh
+  497  sh emp_details_fetch_age.sh emp_details.sh
+  498  pwd
+  499  mv /home/ec2-user/shell_scriptsemp_deatils.sh
+  500  mv /home/ec2-user/shell_scripts/emp_deatils.sh /home/ec2-user/shell_scripts
+  501  mv /home/ec2-user/shell_scripts/emp_deatils.sh /home/ec2-user/shell_scripts/emp_details.sh
+  502  ls -lrt
+  503  sh emp_details_fetch_age.sh emp_details.sh
+  504  vi emp_details_fetch_age.sh
+  505  sh emp_details_fetch_age.sh emp_details.sh
+  506  vi emp_details_fetch_age.sh
+  507  sh emp_details_fetch_age.sh emp_details.sh
+  508  vi emp_details_fetch_age.sh
+  509  clear
+  510  pwd
+  511  cd shell_scripts
+  512  ls -lrt
+  513  vi emp_details_fetch_age.sh
+  514  sh emp_details_fetch_age.sh emp_details.sh
+  515  vi emp_details_fetch_age.sh
+  516  rm emp_details_fetch_age.sh
+  517  vi emp_details_fetch_age.sh
+  518  sudo rm emp_details_fetch_age.sh
+  519  ls -lrt
+  520  vi emp_details_fetch_age.sh
+  521  sudo rm emp_details_fetch_age.sh
+  522  vi emp_details_fet_age.sh
+  523  sh emp_details_fet_age.sh emp_details.sh
+  524  vi emp_details_fet_age.sh
+  525  sh emp_details_fet_age.sh emp_details.sh
+  526  vi emp_details_fet_age.sh
+  527  ls -lrt
+  528  cat 30
+  529  cat emp_details.sh
+  530  rm 30
+  531  ls -lrt
+  532  cat read_file.sh
+  533  vi pattern.sh
+  534  vi pattern2.sh
+  535  vi pattern.sh
+  536  vi pattern2.sh
+  537  sh pattern2.sh
+  538  vi pattern2.sh
+  539  sh pattern2.sh
+  540  vi pattern2.sh
+  541  cd shell_scripts
+  542  ls -lrt
+  543  vi emp_details_fetch_age.sh
+  544  sh emp_details_fetch_age.sh emp_details.sh
+  545  vi emp_details_fetch_age.sh
+  546  sh emp_details_fetch_age.sh emp_details.sh
+  547  vi emp_details_fetch_age.sh
+  548  sh emp_details_fetch_age.sh emp_details.sh
+  549  vi emp_details_fetch_age.sh
+  550  sh emp_details_fetch_age.sh emp_details.sh
+  551  vi emp_details_fetch_age.sh
+  552  sh emp_details_fetch_age.sh emp_details.sh
+  553  vi emp_details_fetch_age.sh
+  554  sh emp_details_fetch_age.sh emp_details.sh
+  555  vi emp_details_fetch_age.sh
+  556  sh emp_details_fetch_age.sh emp_details.sh
+  557  vi emp_details_fetch_age.sh
+  558  sh emp_details_fetch_age.sh emp_details.sh
+  559  vi emp_details_fetch_age.sh
+  560  sh emp_details_fetch_age.sh emp_details.sh
+  561  vi emp_details_fetch_age.sh
+  562  sh emp_details_fetch_age.sh emp_details.sh
+  563  vi emp_details_fetch_age.sh
+  564  sh emp_details_fetch_age.sh emp_details.sh
+  565  vi emp_details_fetch_age.sh
+  566  cd shell_scripts
+  567  ls -lrt
+  568  sh  emp_details_fet_age.sh
+  569  sh emp_details_fet_age.sh emp_details.sh
+  570  vi  emp_details_fet_age.sh
+  571  sh emp_details_fet_age.sh emp_details.sh
+  572  clear
+  573  sh emp_details_fet_age.sh emp_details.sh
+  574  ls -lrt
+  575  vi pattern2
+  576  vi  emp_details_fet_age.sh
+  577  sh emp_details_fet_age.sh emp_details.sh
+  578  vi  emp_details_fet_age.sh
+  579  sh emp_details_fet_age.sh emp_details.sh
+  580  vi  emp_details_fet_age.sh
+  581  sh emp_details_fet_age.sh emp_details.sh
+  582  vi  emp_details_fet_age.sh
+  583  sh emp_details_fet_age.sh emp_details.sh
+  584  vi  emp_details_fet_age.sh
+  585  sh emp_details_fet_age.sh emp_details.sh
+  586  vi  emp_details_fet_age.sh
+  587  sh emp_details_fet_age.sh emp_details.sh
+  588  vi  emp_details_fet_age.sh
+  589  sh emp_details_fet_age.sh emp_details.sh
+  590  clear
+  591  sh emp_details_fet_age.sh emp_details.sh
+  592  vi pattern2
+  593  vi  emp_details_fet_age.sh
+  594  vi pattern2
+  595  sh pattern2
+  596  vi pattern2
+  597  vi  emp_details_fet_age.sh
+  598  sh emp_details_fet_age.sh emp_details.sh
+  599  vi  emp_details_fet_age.sh
+  600  pwd
+  601  cd shell_scripts
+  602  ls -lrt
+  603  cat factorial.sh
+  604  cat list_fact.sh
+  605  vi list_fact2.sh
+  606  sh list_fact2.sh 3 5 6 2 4
+  607  vi list_fact2.sh
+  608  sh list_fact2.sh 3 5 6 2 4
+  609  vi list_fact2.sh
+  610  sh list_fact2.sh 3 5 6 2 4
+  611  vi list_fact2.sh
+  612  sh list_fact2.sh 3 5 6 2 4
+  613  vi list_fact2.sh
+  614  sh list_fact2.sh 3 5 6 2 4
+  615  vi odd_even_num.sh
+  616  rm odd_even_num.sh
+  617  vi list_odd_even.sh
+  618  sh list_odd_even.sh 
+  619  sh list_odd_even.sh {1..100}
+  620  vi list_odd_even.sh
+  621  sh list_odd_even.sh {1..100}
+  622  sh list_odd_even.sh 2 5 6 4 3 1 8 
+  623  vi list_odd_even.sh
+  624  sh list_odd_even.sh 2 5 6 4 3 1 8 
+  625  vi list_odd_even.sh
+  626  sh list_odd_even.sh 2 5 6 4 3 1 8 
+  627  vi list_odd_even.sh
+  628  sh list_odd_even.sh 2 5 6 4 3 1 8 
+  629  vi list_odd_even.sh
+  630  sh list_odd_even.sh 
+  631  vi list_odd_even.sh
+  632  sh list_odd_even.sh 
+  633  vi list_odd_even.sh
+  634  sh list_odd_even.sh 
+  635  vi list_odd_even.sh
+  636  sh list_odd_even.sh 
+  637  vi list_odd_even.sh
+  638  sh list_odd_even.sh 
+  639  vi biggestofn.sh
+  640  sh biggestofn.sh 6 8 2
+  641  sh biggestofn.sh 3 4 9 5 6 2 
+  642  cd shell_scripts
+  643  vi rev_content_file.sh
+  644  sh rev_content_file.sh
+  645  chmod u+x rev_content_file.sh
+  646  vi rev_content_file.sh
+  647  sh rev_content_file.sh sample.sh
+  648  vi rev_content_file.sh
+  649  sh rev_content_file.sh sample.sh
+  650  vi rev_content_file.sh
+  651  sh rev_content_file.sh sample.sh
+  652  sh rev_content_file.sh rev_content_file.sh
+  653  vi rev_content_file.sh
+  654  sh rev_content_file.sh sample.sh
+  655  vi rev_content_file2.sh
+  656  sh rev_content_file.sh sample.sh
+  657  sh rev_content_file2.sh sample.sh
+  658  vi rev_content_file2.sh
+  659  vi sec_biggest_num.sh
+  660  vi sec_biggest_num.sh 3 6 5 2 4 8
+  661  sh sec_biggest_num.sh 3 6 5 2 4 8
+  662  sh sec_biggest_num.sh 3 6 5 2 
+  663  vi sec_biggest_num.sh
+  664  sh sec_biggest_num.sh 3 6 5 2 
+  665  sh sec_biggest_num.sh 3 6 5 2 4 8
+  666  vi sec_biggest_num.sh
+  667  sh sec_biggest_num.sh 3 6 5 2
+  668  vi sec_biggest_num.sh
+  669  vi biggestofn.sh
+  670  vi sec_biggest_num.sh
+  671  sh sec_biggest_num.sh 3 6 2 5
+  672  vi sec_biggest_num.sh
+  673  sh sec_biggest_num.sh 3 6 2 5
+  674  vi sec_biggest_num.sh
+  675  sh sec_biggest_num.sh 3 6 2 5
+  676  vi sec_biggest_num.sh
+  677  sh sec_biggest_num.sh 3 6 2 5
+  678  vi sec_biggest_num.sh
+  679  sh sec_biggest_num.sh 3 6 2 5
+  680  vi sec_biggest_num.sh
+  681  vi biggestofn.sh
+  682  vi sec_biggest_num.sh
+  683  sh sec_biggest_num.sh 3 6 2 5
+  684  vi sec_biggest_num.sh
+  685  sh sec_biggest_num.sh 3 6 2 5
+  686  vi sec_biggest_num.sh
+  687  sh sec_biggest_num.sh 3 6 2 5
+  688  vi sec_biggest_num.sh
+  689  sh sec_biggest_num.sh 3 6 2 5
+  690  vi sec_biggest_num.sh
+  691  sh sec_biggest_num.sh 3 6 2 5
+  692  vi sec_biggest_num.sh
+  693  vi check_service.sh
+  694  sh check_service.sh httpd
+  695  sh check_service.sh
+  696  sudo systemctl start httpd
+  697  sh check_service.sh
+  698  ps -ef
+  699  vi check_service.sh
+  700  ps-ef | grep -i $NAME | grep -v "grep" | wc -l
+  701  ps-ef | grep -i httpd | grep -v "grep" | wc -l
+  702  ps -ef | grep -i httpd | grep -v "grep" | wc -l
+  703  vi check_service.sh
+  704  sh check_service.sh
+  705  vi check_service.sh
+  706  sudo systemctl stop httpd
+  707  ps -ef | grep -i httpd | grep -v "grep" | wc -l
+  708  ps -ef | grep -i httpd | grep -v "grep" 
+  709  eccho "fdv" 2>sdc.txt
+  710  cat sdc.txt
+  711  eccho "fdv" > sdcd.txt 2>&1
+  712  cat sdcd.txt
+  713  echo "fdv" > sdcd.txt 2>&1
+  714  cat sdcd.txt
+  715  echo "fdv" 2>sdc.txt
+  716  cat sdc.txt
+  717  pwd
+  718  cd shell_scripts
+  719  ls -lrt
+  720  vi ascending_num.sh
+  721  sh ascending_num.sh 6 3 8 5 1 4
+  722  vi ascending_num.sh
+  723  sh ascending_num.sh 6 3 8 5 1 4
+  724  sh ascending_num.sh
+  725  vi ascending_num.sh
+  726  sh ascending_num.sh
+  727  vi ascending_num.sh
+  728  sh ascending_num.sh
+  729  vi ascending_num.sh
+  730  sh ascending_num.sh
+  731  vi ascending_num.sh
+  732  sh ascending_num.sh
+  733  vi ascending_num.sh
+  734  sh ascending_num.sh
+  735  vi ascending_num.sh
+  736  sh ascending_num.sh
+  737  vi ascending_num.sh
+  738  sh ascending_num.sh
+  739  vi ascending_num.sh
+  740  sh ascending_num.sh
+  741  vi ascending_num.sh
+  742  sh ascending_num.sh
+  743  vi ascending_num.sh
+  744  sh ascending_num.sh
+  745  vi ascending_num.sh
+  746  sh ascending_num.sh
+  747  vi ascending_num.sh
+  748  sh ascending_num.sh
+  749  vi ascending_num.sh
+  750  vi ascending_num2.sh
+  751  sh ascending_num.sh
+  752  sh ascending_num2.sh
+  753  vi ascending_num2.sh
+  754  sh ascending_num2.sh
+  755  vi ascending_num2.sh
+  756  sh ascending_num2.sh
+  757  ls -lrt
+  758  vi ascending_num2.sh
+  759  rm ascending_num2.sh
+  760  ls -lrt
+  761  vi ascending_num.sh
+  762  sh ascending_num.sh
+  763  vi decending_num.sh
+  764  sh decending_num.sh
+  765  vi decending_num.sh
+  766  vi pyramid.sh
+  767  sh pyramid.sh
+  768  vi pyramid.sh
+  769  sh pyramid.sh
+  770  vi pyramid.sh
+  771  sh pyramid.sh
+  772  vi pyramid.sh
+  773  mv ./pyramid.sh ./h
+  774  ls -lrt
+  775  vi pyramid.sh
+  776  sh pyramid.sh
+  777  vi pyramid.sh
+  778  vi rev_string.sh
+  779  sh rev_string.sh
+  780  vi rev_string.sh
+  781  sh rev_string.sh
+  782  vi rev_string.sh
+  783  vi rev_string2.sh
+  784  sh rev_string2.sh
+  785  vi rev_string2.sh
+  786  vi menu_based_script.sh
+  787  sh menu_based_script.sh
+  788  vi menu_based_script.sh
+  789  sh menu_based_script.sh
+  790  vi menu_based_script.sh
+  791  sh menu_based_script.sh
+  792  vi menu_based_script.sh
+  793  sh menu_based_script.sh
+  794  vi menu_based_script.sh
+  795  cat add_num.sh
+  796  vi menu_based_script.sh
+  797  sh menu_based_script.sh
+  798  vi menu_based_script.sh
+  799  sh menu_based_script.sh
+  800  sh -x menu_based_script.sh
+  801  vi menu_based_script.sh
+  802  sh menu_based_script.sh
+  803  vi menu_based_script.sh
+  804  sh menu_based_script.sh
+  805  ls -lrt
+  806  ls -lt
+  807  vi menu_based_script.sh
+  808  sh menu_based_script.sh
+  809  vi menu_based_script.sh
+  810  sh menu_based_script.sh
+  811  vi menu_based_script.sh
+  812  sh menu_based_script.sh
+  813  vi menu_based_script.sh
+  814  sh menu_based_script.sh
+  815  vi menu_based_script.sh
+  816  sh menu_based_script.sh
+  817  vi menu_based_script.sh
+  818  sh menu_based_script.sh
+  819  cat st_link
+  820  cat add_num2.sh
+  821  sh menu_based_script.sh
+  822  vi menu_based_script.sh
+  823  sh menu_based_script.sh
+  824  vi menu_based_script.sh
+  825  sh menu_based_script.sh
+  826  vi menu_based_script.sh
+  827  sh menu_based_script.sh
+  828  vi menu_based_script.sh
+  829  sh menu_based_script.sh
+  830  vi menu_based_script.sh
+  831  sh menu_based_script.sh
+  832  vi menu_based_script.sh
+  833  sh menu_based_script.sh
+  834  vi menu_based_script.sh
+  835  touch f1.sh
+  836  sh menu_based_script.sh 
+  837  ls -lrt
+  838  touch f1.txt
+  839  ls -lrt
+  840  sh menu_based_script.sh 
+  841  ls -lrt
+  842  sh menu_based_script.sh 
+  843  touch f1.txt
+  844  ls -lrt
+  845  sh menu_based_script.sh 
+  846  ls -lrt
+  847  rm f2.csv
+  848  sh menu_based_script.sh 
+  849  vi menu_based_script.sh
+  850  sh menu_based_script.sh 
+  851  vi menu_based_script.sh
+  852  sh menu_based_script.sh 
+  853  sh -x menu_based_script.sh 
+  854  sh menu_based_script.sh 
+  855  vi menu_based_script.sh
+  856  cd shell_scripts
+  857  vi join_two_files.sh
+  858  ls -lrt
+  859  sh join_two_files.sh
+  860  cat add_num2.sh
+  861  cat add_num.sh
+  862  vi f1 f2
+  863  vi f1 
+  864  vi f2
+  865  sh join_two_files.sh
+  866  cat f1 
+  867  cat f2
+  868  vi join_two_files.sh
+  869  sh join_two_files.sh
+  870  vi join_two_files.sh
+  871  sh join_two_files.sh
+  872  vi join_two_files.sh
+  873  sh join_two_files.sh
+  874  vi join_two_files.sh
+  875  sh join_two_files.sh
+  876  vi join_two_files.sh
+  877  sh join_two_files.sh
+  878  vi join_two_files.sh
+  879  sh join_two_files.sh
+  880  vi join_two_files.sh
+  881  sh join_two_files.sh
+  882  vi join_two_files.sh
+  883  cd shell_scripts
+  884  vi join_two_files.sh
+  885  sh join_two_files.sh
+  886  cat f1
+  887  cat f2
+  888  vi join_two_files.sh
+  889  sh join_two_files.sh
+  890  vi join_two_files.sh
+  891  sh join_two_files.sh
+  892  vi join_two_files.sh
+  893  cd shell_scripts
+  894  cd
+  895  ls -lrt
+  896  cd dir1
+  897  ls -lrt
+  898  touch abc{1..100}.log
+  899  ls -lrt
+  900  cd
+  901  cd shell_scripts
+  902  vi cleanup.sh
+  903  pwd
+  904  cd /home/ec2-user/dir1
+  905  ls -lrt
+  906  cd
+  907  cd shell_scripts
+  908  sh cleanup.sh
+  909  vi cleanup.sh
+  910  sh cleanup.sh
+  911  sh -x cleanup.sh
+  912  vi case_ex.sh
+  913  sh case_ex.sh
+  914  date
+  915  date +%u
+  916  date +%a
+  917  date +%a | tr '[:lower:]' '[:upper:]'
+  918  date +%a | tr '[:upper:]' '[:lower:]'
+  919  vi date_ex.sh
+  920  cd 
+  921  ls
+  922  mkdir linux_commands
+  923  cd ./linux_commands
+  924  touch access_log error_log
+  925  vi date_ex.sh
+  926  sh date_ex.sh
+  927  sudo yum install git -y
+  928  which git
+  929  whereis git
+  930  git --version
+  931  ls -lrt
+  932  mkdir firstname
+  933  cd firstname/
+  934  ls -lrt
+  935  git init
+  936  ls -lart
+  937  cd .git/
+  938  ls -lrt
+  939  cat config
+  940  cd ..
+  941  ls -lrt
+  942  git config --global init.defaultBranch master
+  943  git branch
+  944  ls -lrt
+  945  git config --global user.name "jeevan"
+  946  git config --global user.email "rmjeevankiran@gmail.com"
+  947  cd .git/
+  948  cat config
+  949  ls -lrt
+  950  cd .info/
+  951  cd info/
+  952  ls
+  953  cd ..
+  954  ls -lrt
+  955  git remote add origin https://github.com/Jeevan-2/repo-jeevan.git
+  956  cp ../shell_scripts/* .^C
+  957  cp ../shell_scripts/* 
+  958  ls -lrt
+  959  cp /home/ec2-user/shell_scripts/* .
+  960  cp /home/ec2-user/shell_scripts/* 
+  961  cp ../shell_scripts/* .^c
+  962  cp ../shell_scripts/* ./firstname/
+  963  cp /home/ec2-user/shell_scripts/* /home/ec2-user/firstname/
+  964  cp /home/ec2-user/shell_scripts/* /home/ec2-user/firstname
+  965  git add README.md
+  966  git init
+  967  git add README.md
+  968  history
+  969  pwd
+  970  ls -lrt
+  971  git add
+  972  cd firstname
+  973  git init
+  974  ls -lart
+  975  cd .git
+  976  cd
+  977  history
+  978  touch testing
+  979  ls
+  980  ls-lt
+  981  ls -lt
+  982  ls -lrt
+  983  rm testing
+  984  ls -lrt
+  985  mkdir class
+  986  ls -lt
+  987  ls -lt
+  988  vi testing
+  989  ls -lrt
+  990  rm testing
+  991  pwd
+  992  ls -lrt
+  993  cd firstname
+  994  git remote add origin https://github.com/Jeevan-2/repo-jeevan.git
+  995  cp ../shell_scripts/*
+  996  cp ../shell_scripts/* .^C
+  997  cp ../shell_scripts/* .^c
+  998  ls -lrt
+  999  rm history.txt
+ 1000  ls -lrt
+ 1001  cd firstname
+ 1002  ls -lrt
+ 1003  history
+ 1004  history > history.txt
