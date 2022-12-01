@@ -2,8 +2,10 @@
 
 echo "Enter the string"
 read STR
+
 echo "From which char we need to start sub string"
 read START
+
 echo "How many chars are needed for sub string"
 read END
 
