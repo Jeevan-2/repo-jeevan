@@ -10,9 +10,11 @@ then
 elif [ $first -eq $second ];
 then
 	echo "$first is equal to $second"
+
 elif [ $first -gt $second ];
 then
 	echo "$first is bigger than $second"
+
 else
         echo "$second is bigger than $first"
 fi
