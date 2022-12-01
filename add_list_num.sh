@@ -6,3 +6,5 @@ do
 done
 
 echo "SUM of numbers $* is $SUM"
+
+
