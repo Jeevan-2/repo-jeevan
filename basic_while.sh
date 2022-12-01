@@ -10,4 +10,5 @@ do
 	SUM=`expr $SUM + $NUM`
 	NUM=`expr $NUM - 1`
 done
+
 echo "SUM is $SUM"
