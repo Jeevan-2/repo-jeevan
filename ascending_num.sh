@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 echo "Enter size of array";
@@ -26,5 +25,6 @@ do
         break;
     fi
 done
+
 echo "Final sorted Array is ${arr[*]}";
 
