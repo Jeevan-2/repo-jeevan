@@ -15,6 +15,7 @@ do
       NUM=$i
       VAR=$i
       factorial
+
 done
 
 
