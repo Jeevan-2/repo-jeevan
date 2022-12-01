@@ -1,5 +1,7 @@
 #!/bin/bash
+
 SUM=0
+
 (( SUM=$1+$2 ))
 DIV=`expr $1 / $2`
 REM=`expr $1 % $2`
