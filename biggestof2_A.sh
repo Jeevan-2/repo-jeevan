@@ -12,6 +12,7 @@ then
      else
         echo "$B is bigger than $A"
      fi
+
 else
 	echo "Please pass only two arguments"
 fi
