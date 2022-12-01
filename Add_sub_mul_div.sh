@@ -14,7 +14,8 @@ if [ $A -gt $B ] || [ $B -gt $A ];
 then
 	echo "Addition of $A & $B is $NUM1"
 	echo "Multiplication of $A & $B is $NUM2"
-     if [ $A -gt $B ];
+
+   	if [ $A -gt $B ];
      then
         echo "subtraction of $A & $B is $NUM3"
         echo "Division of $A & $B is $NUM4"
