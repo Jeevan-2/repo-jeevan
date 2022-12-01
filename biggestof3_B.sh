@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [ $# -ne 3 ];
 then
      echo "Pass only 3 arguments"
