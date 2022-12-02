@@ -2,6 +2,7 @@
 
 COUNT=1
 
+
 while read FILE
 do
     WORDS=`echo $FILE | wc -w`
