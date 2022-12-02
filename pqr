@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "enter the string"
+read str
+
+num=$#
+
+if[ $num -ge 1 ]
+then
+echo "entered string is $str"
+fi
