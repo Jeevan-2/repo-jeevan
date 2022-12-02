@@ -5,7 +5,7 @@ read str
 
 num=$#
 
-if[ $num -ge 1 ]
+if[ $num -le 1 ]
 then
 echo "entered string is $str"
 fi
