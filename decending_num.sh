@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 echo "Enter size of array";
