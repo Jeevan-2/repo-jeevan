@@ -3,7 +3,7 @@
 sed '1d' $1 >file
 while read line
 do 
-	age=`echo $line | cut -d ":" -f3`
+    age=`echo $line | cut -d ":" -f3`
 	
 	if [ $age -gt 30 ];
 	then
@@ -11,6 +11,5 @@ do
 		#empid=`echo $line | cut -d ":" -f2`
 		#echo "$name:$empid"
 	         echo "$name"
-
-	fi
+        fi
 done <file
