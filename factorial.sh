@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "Enter a number to check factorial"
 read NUM
 
