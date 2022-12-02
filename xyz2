@@ -3,9 +3,9 @@
 echo "enter a number"
 read $*
 
-num=$*
+num=$#
 
-if [ $num -lt 0 ]
+if [ $num -ge 1 ] 
 then
      echo "enter number is $*"
 fi
