@@ -1,2 +1,5 @@
-hi
-hello
+#!/bin/bash
+
+echo "enter the string"
+read str
+echo "entered string is $str"
