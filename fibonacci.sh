@@ -2,7 +2,6 @@
 
 echo "Enter number of fabonacci series required"
 read n
-
 x=0
 y=1
 i=2
