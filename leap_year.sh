@@ -2,7 +2,6 @@
 
 echo "Enter the year to check"
 read YEAR
-
 Y=$(( $YEAR % 4 ))
 
 if [[ $Y -eq 0 ]];
