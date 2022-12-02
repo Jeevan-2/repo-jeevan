@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "enter a number"
+read $*
+
+num=$*
+
+if [ $num -lt 0 ]
+then
+     echo "enter number is $*"
+fi
