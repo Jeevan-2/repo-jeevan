@@ -2,6 +2,7 @@
 
 for i in $*
 do 
+
 	NUM=$i
 	FACT=1
 	while [ $NUM -gt 1 ]

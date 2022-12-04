@@ -1,6 +1,8 @@
 #!/bin/bash
+
 echo "Enter pattern to search"
 read pat
+
 echo
 
 grep -lw -R $pat *
