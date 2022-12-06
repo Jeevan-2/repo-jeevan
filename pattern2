@@ -9,6 +9,5 @@ then
 	echo "above files are containing the pattern $pat"
 else
 	echo "pattern not found in any files"
-
 fi
 
