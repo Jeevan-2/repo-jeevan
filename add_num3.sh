@@ -5,9 +5,10 @@ SUM=0
 (( SUM=$1+$2 ))
 DIV=`expr $1 / $2`
 REM=`expr $1 % $2`
+MUL=`expr $1 \* $2`
 
 echo "SUM of $1 & $2 is $SUM"
 echo "DIV of $1 & $2 is $DIV"
 echo "REM of $1 & $2 is $REM"
-
+echo "MUL of $1 & $2 is $MUL"
 
